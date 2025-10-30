@@ -112,18 +112,14 @@ const Experiences = () => {
                 {/* Experience Image */}
                 <div className="h-48 relative overflow-hidden">
                   <img
-                    src={
-                      experience.image
-                        ? `http://localhost:5000${experience.image}`
-                        : 'https://via.placeholder.com/400x300?text=No+Image'
-                    }
-                    alt={experience.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    onError={(e) =>
-                      (e.target.src =
-                        'https://via.placeholder.com/400x300?text=No+Image')
-                    }
-                  />
+                     src={`http://localhost:5000${experience.image}`}
+                     alt={experience.title}
+                     className="w-full h-64 object-cover"
+                     onError={(e) => {
+                         e.target.onerror = null;
+                         e.target.src = '/default-placeholder.png'; // or your own file in public/
+                        }}
+                   />
                 </div>
 
                 {/* Experience Info */}
