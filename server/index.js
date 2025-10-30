@@ -12,6 +12,12 @@ dotenv.config();
 await connectDB();
 
 const app = express();
+
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://travel-experiences-web.onrender.com'
+];
+
 app.use(cors({
   origin: 'http://localhost:3000', // your React app
   credentials: true,
