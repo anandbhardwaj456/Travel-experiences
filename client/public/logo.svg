@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Highway Delite logo">
+  <title>Highway Delite</title>
+  <!-- Brand mark: stylized pin with hd and smile -->
+  <g transform="translate(10,4)">
+    <!-- Map pin shape -->
+    <path d="M20 0c8.837 0 16 7.163 16 16 0 11-16 20-16 20S4 27 4 16C4 7.163 11.163 0 20 0z" fill="#111" />
+    <!-- Vertical road line -->
+    <rect x="19" y="4" width="2" height="18" fill="#fff" opacity="0.8"/>
+    <rect x="19" y="4" width="2" height="18" fill="#fff" opacity="0.2"/>
+    <!-- hd letters -->
+    <text x="20" y="15" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="12" fill="#FFD400">hd</text>
+    <!-- Smile curve -->
+    <path d="M12 20c2 3 14 3 16 0" fill="none" stroke="#FFD400" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Wordmark -->
+  <g transform="translate(60,26)">
+    <text x="0" y="0" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#111">highway</text>
+    <text x="78" y="0" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#111">delite</text>
+  </g>
+</svg>
